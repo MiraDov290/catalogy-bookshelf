@@ -1,0 +1,105 @@
+/* .container {
+    padding: 0 20px;
+    max-width: 100%;
+}
+
+@media screen and (min-width: 375px) {
+    .container {
+        margin: 0 auto;
+        max-width: 375px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        padding: 0 32px;
+        max-width: 768px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .container {
+        padding: 0 24px;
+        max-width: 1440px;
+    }
+} */
+
+/* * {
+    text-decoration: none;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none;
+} */
+
+ul {
+    list-style: none;
+}
+
+ /* li {
+    margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+    }
+
+        a {
+            color: inherit;
+            cursor: pointer;
+        }
+
+                a {
+                    background-color: transparent;
+                } */
+
+ /* .book_shelf{
+     padding: 50px 0 130px;
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+     -webkit-box-pack: justify;
+     -ms-flex-pack: justify;
+     justify-content: space-between;
+     -ms-flex-wrap: wrap;
+     flex-wrap: wrap;
+ } */
+
+/* .book_shelf_nav .category {
+    width: 362px;
+     margin-top: 25px;
+}
+
+
+.shops_nav .category .item {
+    font-size: 14px;
+    line-height: 2.5;
+    padding-left: 10px;
+}
+
+.shops_nav .category .active {
+    color: #78b553;
+    border-left: 2px solid #78b553;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}  */
+
+/* [class^=fa_],
+[class*=" fa_"] {
+    font-family: icomoon !important;
+    speak: none;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+} 
