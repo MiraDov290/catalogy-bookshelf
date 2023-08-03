@@ -35,71 +35,78 @@ ul {
     list-style: none;
 }
 
- /* li {
-    margin: 0;
-        padding: 0;
-        border: 0;
-        font-size: 100%;
-        font: inherit;
-        vertical-align: baseline;
-    }
+ .book_shelf{
+    display: flex;
+ }
 
-        a {
-            color: inherit;
-            cursor: pointer;
-        }
-
-                a {
-                    background-color: transparent;
-                } */
-
- /* .book_shelf{
-     padding: 50px 0 130px;
-     display: -webkit-box;
-     display: -ms-flexbox;
-     display: flex;
-     -webkit-box-pack: justify;
-     -ms-flex-pack: justify;
-     justify-content: space-between;
-     -ms-flex-wrap: wrap;
-     flex-wrap: wrap;
- } */
-
-/* .book_shelf_nav .category {
+.book_shelf_nav .category {
     width: 362px;
-     margin-top: 25px;
+     margin-top: 40px;
+     margin-bottom: 86px;
+     margin-left: 24px;
+     margin-right: 40px;
 }
 
 
-.shops_nav .category .item {
-    font-size: 14px;
+.item {
+    font-size: 18px;
     line-height: 2.5;
-    padding-left: 10px;
+    padding-left: 0px;
+    padding-top: 32px;
+    text-decoration: none;
+    color: #d0d0d0;
 }
 
-.shops_nav .category .active {
-    color: #78b553;
-    border-left: 2px solid #78b553;
-}
-
-.fa {
-    display: inline-block;
-    font: normal normal normal 14px/1 FontAwesome;
-    font-size: inherit;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}  */
-
-/* [class^=fa_],
-[class*=" fa_"] {
-    font-family: icomoon !important;
-    speak: none;
-    font-style: normal;
-    font-weight: 400;
-    font-variant: normal;
-    text-transform: none;
-    line-height: 1;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+.active:focus,
+.active:hover {
+    color: #4f2fe8;
 } 
+
+
+.title {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 40px;
+    font-size: 48px;
+    color: #111;
+}
+
+.links {
+color: #4f2ee8;
+}
+
+.book_shelf_item {
+    display: flex;
+    
+} 
+
+.category-title {
+    margin-left: 40px;
+    font-size: 14px;
+    color: #b4afaf;
+}
+
+.flip-inner {
+    height: 256px;
+    width: 180px;
+}
+.category-item {
+    padding-right: 24px;
+}
+
+.bookes-content {
+    margin-top: 14px;
+}
+
+.bookes-title {
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 4px;
+    color: #111;
+}
+
+.bookes-author {
+    font-size: 12px;
+    color: #b4afaf;
+
+}
